@@ -1,0 +1,127 @@
+.card-footer{
+    text-align: center;
+  }
+  
+  .footer{
+    text-align: center;
+  }
+  
+  #searchInput{
+    border-radius: 4px;
+  }
+  
+  #searchBtn, #clearBtn, #randomBtn{
+    border-radius: 4px;
+    margin-right: 4px;
+   
+    
+  }
+  
+  .flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    border-radius: 5px;
+  }
+
+  #cryptoInformation {
+    align-items: center;
+    justify-content: center;
+   
+
+  }
+
+  #cryptoImg {
+    margin: 0 auto;
+  
+  }
+
+  #imageText {
+    text-align: center;
+
+  }
+
+  #alert {
+    color: white;
+    margin-right: 20px;
+
+  }
+
+#cyrpto-name-input{
+  background: white;
+  color: black;
+  border-radius: 5px;
+}
+
+#card-name-input{
+  background-color: white;
+  color:black;
+  border-radius: 5px;
+}
+
+#title {
+  color: white;
+  
+} 
+
+h1{
+  font-size: 100px;
+}
+
+h7{
+  font-size: 20px;
+}
+
+  #cardBody{
+    background-color: white;
+    border-radius: 5px;
+
+  }
+  #information{
+    background: white;
+    border-radius: 5px;
+  }
+
+  body{
+    background-image: url(https://sociable.co/wp-content/uploads/2017/08/blockchain-app.jpg);
+   
+  }
+
+  .jumbotron{
+    background: #01355e00;
+    color: white;
+    padding-bottom: 0px;
+    text-align: center;
+    text-shadow: 3px 2px 0 #000, 3px 2px 0 #000, 3px 2px 0 #000, 1px 1px 0 #000;
+  }
+
+.bg-primary{
+ background: white;
+ color: white;
+}
+  #cryptoGif {
+    margin-top: 5px;
+    height: 250px;
+    width: 25%;
+  
+  }
+.list-group{
+  padding-bottom: 10px;
+}
+
+.btn{
+  background:#071a41aa;
+  color: white;
+
+}
+
+p{
+  text-align: center;
+}
+
+#gifBtn{
+  width: 100%;
+}

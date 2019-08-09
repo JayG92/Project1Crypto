@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Crypto Project</title>
+
+  <!-- Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+
+  <!-- Our CSS  -->
+  <link rel="stylesheet" href="assets/css/bootswatch.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- animate.css -->
+
+</head>
+
+<!--start of JUMBO -->
+
+<body>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="animated fadeInDown" id="title">Crypto </h1>
+      <h7 class="animated bounce">Easy to use inferface to get all the info you need on Crypto Currency</h7>
+    </div>
+  </div>
+  <!-- end of JUMBO -->
+
+  <!-- start of nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand">Search for info on Crypto</a>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+      <h6 id="alert"> </h6>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" id="searchInput" type="text" for="searchBtn" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" id="searchBtn" type="submit">Search</button>
+
+        <button class="btn btn-secondary my-2 my-sm-0" id="clearBtn" type="submit">Clear</button>
+
+        <button class="btn btn-secondary my-2 my-sm-0" id="randomBtn" type="submit">Random</button>
+      </form>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <!-- end of nav -->
+
+  <div class="container">
+    <div id="alertDiv"> </div>
+    <!-- Card Body where info goes -->
+    <div id="cryptoInformation"> </div>
+
+    <div class="card mb-3">
+
+      <h3 id="cyrpto-name-input" class="card-header">Why Crypto?</h3>
+
+
+      <div class="card-body">
+        <div class="flex-center mb-5">
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ZO7INzyM51U" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <!-- End of Image -->
+
+        <p class="card-text" id="imageText">A beginners guide to CryptoCurrency. Get all the data you need to get
+          started without feeling overwhemled.
+
+          <p>So what exactly is CryptoCurreny anways? It is a digital currency in which encryption techniques are used
+            to regulate the
+            generation
+            of units of currency and verify the transfer of funds, operating independently of a central bank.</p>
+          <br>
+
+
+          <p>Here is a list of a few companies who currenly accepts CryptoCurrency:
+            <br>
+            <br>
+            1. Dish
+            <br>
+            2. AirVPN
+            <br>
+            3. Microsoft
+            <br>
+            4. Subway
+            <br>
+            5. Shopify
+            <br>
+            6. Namecheap
+            <br>
+            7. Newegg
+            <br>
+            8. Overstock
+            <br>
+            9. CheapAir
+            <br>
+            10. AXA
+            <br>
+            11. Virgin Galactic
+            <br>
+            12. 4chan
+            <br>
+            13. BigFishGames
+            <br>
+            14. MovieTickets
+            <br>
+            15. T-Mobile
+          </p>
+        </p>
+      </div>
+      <button class="btn btn-secondary my-2 my-sm-0" id="gifBtn" type="submit">Grab me some gifs please</button>
+
+      <div id="gifsAppearHere"> </div>
+
+      <div class="card-footer text-muted">
+        Copyright &copy;
+      </div>
+    </div>
+  </div>
+  <!-- End of card body -->
+  <!-- end of JUMBO -->
+
+  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-database.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script src="assets/javascript/javascript.js"></script>
+
+</body>
+<br>
+<br>
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Project One </strong>
+    </p>
+  </div>
+</footer>
+
+
+</html>
